@@ -14,9 +14,7 @@ a{
     margin: 0 auto;
     background: #eee;
 }
-.logo{
-    position: relative;
-}
+
 .logo span{
     color: #c60023;
     font-weight: 700;
@@ -24,7 +22,6 @@ a{
     position: absolute;
     left: 50px;
     top: 20px;
-    display: block;
 }
 .main-nav{
     padding:20px 0px 10px 240px;
@@ -46,7 +43,7 @@ a{
     color: #c60023;
 }
 .search{
-    margin: -60px 0 0px 1000px;
+    margin: -60px 0px 0px 1000px;
     padding-bottom: 10px;
 }
 .search input{
@@ -63,7 +60,7 @@ a{
     color: #fff;
     background: #c60023;
     border: none;
-    outline: none;
+
 }
 
 
@@ -191,6 +188,7 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    font-size: 10px;
 }
 
 img{
